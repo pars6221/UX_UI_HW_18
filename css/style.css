@@ -1,0 +1,24 @@
+.flexContainer {
+   display: flex; 
+   flex-direction: row;
+   background-color: rgb(195, 195, 195);
+   justify-content: center;
+   width: 33%;
+    margin: 10px;
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    flex-direction: row;
+    background-color: rgb(195, 195, 195);
+    justify-content: center;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
